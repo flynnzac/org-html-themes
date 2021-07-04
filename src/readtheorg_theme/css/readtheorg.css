@@ -1,11 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Cardo");
-@import url("https://fonts.googleapis.com/css?family=Old+Standard+TT");
 @import url("https://fonts.googleapis.com/css?family=Inconsolata");
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono");
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 
 h1,h2,h3,h4,h5,h6,legend{
-    font-family:"Old Standard TT",Times,serif;
+    font-family:"Cardo",Times,serif;
     font-weight:700;
     margin-top:0;
 }
@@ -56,7 +55,7 @@ html{
 body{
     background:#EEEEDD;
     color:#404040;
-    font-family:"Old Standard TT",Times,serif;
+    font-family:"Cardo",Times,serif;
     font-weight:normal;
     margin:0;
     min-height:100%;
@@ -929,7 +928,7 @@ footer p{
     color:#030303;
     background:#CCCCDD;
     border-top:solid 10px #EEEEDD;
-    font-family:"Old Standard TT", serif;
+    font-family:"Cardo", serif;
     font-size: 90%;
     z-index:400;
     padding:12px;
@@ -1001,7 +1000,7 @@ footer p{
 #content h1 .headerlink:after,#content h2 .headerlink:after,#content h3 .headerlink:after,#content h4 .headerlink:after,#content h5 .headerlink:after,#content h6 .headerlink:after,#content dl dt .headerlink:after{
     visibility:visible;
     content:"";
-    font-family:Old Standard TT;
+    font-family:Cardo;
     display:inline-block}
 
 #content h1:hover .headerlink,#content h2:hover .headerlink,#content h3:hover .headerlink,#content h4:hover .headerlink,#content h5:hover .headerlink,#content h6:hover .headerlink,#content dl dt:hover .headerlink{
@@ -1024,7 +1023,7 @@ footer p{
 
 #content .sidebar .sidebar-title{
     display:block;
-    font-family:"Old Standard TT",serif;
+    font-family:"Cardo",serif;
     font-weight:bold;
     background:#e1e4e5;
     padding:6px 12px;
@@ -1060,7 +1059,7 @@ h2.footnotes{
 .footnum, .footref{
     color: #2980b9;
     font-size: 90%;
-    font-family:"Old Standard TT",serif;
+    font-family:"Cardo",serif;
 }
 
 .footnum:before, .footref:before{
@@ -1074,7 +1073,7 @@ h2.footnotes{
 .footpara {
     color: #999;
     font-size: 90%;
-    font-family:"Old Standard TT",serif;
+    font-family:"Cardo",serif;
     padding-bottom: 8px;
     padding-left: 16px;
     padding-right: 16px;
@@ -1138,4 +1137,4 @@ h2.footnotes{
     /* padding: 10px 20px 10px 60px; */
     padding: 9px 12px;
     margin-bottom: 24px;
-    font-family:"Old Standard TT",serif}
+    font-family:"Cardo",serif}
