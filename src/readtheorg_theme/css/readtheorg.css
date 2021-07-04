@@ -68,7 +68,7 @@ body{
     height:100%;
     margin-left:300px;
     /* margin:auto; */
-    max-width:900px;
+    max-width:1000px;
     min-height:100%;
     padding:1.618em 3.236em;
 }
@@ -767,13 +767,13 @@ hr{
     display:block;
     position:relative;
     font-size:90%;
-    color:#b3b3b3;
+    color:#232323;
     direction: ltr;
 }
 
 #table-of-contents a:hover{
 	color: #ffffff !important;
-    background-color:#4e4a4a;
+    background-color:#4a4a4f;
     cursor:pointer}
 
 /* #text-table-of-contents { */
@@ -788,9 +788,9 @@ hr{
     overflow-x:hidden;
     overflow-y:scroll;
     height:100%;
-    background:#343131;
+    background:#EEEEDD;
     z-index:200;
-    scrollbar-base-color: #1F1D1D;
+    scrollbar-base-color: #EEEEDD;
     scrollbar-arrow-color: #b3b3b3;
     scrollbar-shadow-color: #1F1D1D;
     scrollbar-track-color : #343131;
@@ -798,11 +798,11 @@ hr{
 
 #table-of-contents h2{
     z-index:200;
-    background-color:#2980B9;
+    background-color:#CCCCDD;
     text-align:center;
     padding:0.809em;
     display:block;
-    color:#fcfcfc;
+    color:#030303;
     font-size: 100%;
     margin-bottom:0.809em}
 
@@ -926,9 +926,9 @@ footer p{
     bottom:0;
     left:0;
     width:300px;
-    color:#fcfcfc;
-    background:#1f1d1d;
-    border-top:solid 10px #343131;
+    color:#030303;
+    background:#CCCCDD;
+    border-top:solid 10px #EEEEDD;
     font-family:"Old Standard TT", serif;
     font-size: 90%;
     z-index:400;
@@ -943,7 +943,7 @@ footer p{
 #postamble .date {
     font-size: 90%;
     margin-bottom: 0px;
-    color: #27AE60;
+    color: #030303;
 }
 
 #postamble .creator,#postamble .validation {
